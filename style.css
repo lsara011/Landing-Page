@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 30px 375px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header-links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 20px;
+}
+
+section{
+    background-color: #1f2937;    
+    padding: 100px 20px;    
+}
+section h1{
+    font-size: 48px;
+    color:#f9faf8;
+}
+
+section p{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 250px;
+}
+
+.section-button button{
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:#f9faf8;
+}
+.section1-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.placeholder-image img{
+    height: 300px;
+    width: auto;
+}
+
+.some-information{
+    padding: 100px;
+    text-align: center;
+}
+.info-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    padding: 10px;
+}
+.cont{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 50px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-box{
+    text-align: center;
+    width: 1000px;    
+}
+
+.quote h3, p{
+    color: white;
+    font-style:italic;
+    font-size: 36px;
+}
+
+.quote p{
+    text-align: end;
+}
+
+.call-to-action{
+    height: 200px;
+    display: flex;
+    padding: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.another-section{
+    background-color: #3882f6;
+    width: 1250px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 150px;
+    align-items: center;
+}
+
+.another-section h3{
+    font-size: 36px;
+}
+
+.another-section p{
+    font-size: 18px;
+    font-style: none;
+}
+
+.signup-button button{
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
+}
+
+
+footer{
+    display: flex;
+    height: 100px;
+    font-size: 24px;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
